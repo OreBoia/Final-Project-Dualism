@@ -6,6 +6,7 @@ using UnityEditor;
 using TMPro;
 using System.Linq;
 using System;
+using UnityEngine.UI;
 
 public enum DialagoStatus { Init, Typing, EndOfSentence, EndOfDialog }
 public enum DialagoType { Dialog, Monologue }
@@ -182,7 +183,7 @@ public class DialogController : MonoBehaviour
 
         //Debug.Log(color);
 
-        SpriteRenderer sp = canvas.gameObject.GetComponentInChildren<SpriteRenderer>();
+        Image sp = canvas.gameObject.GetComponentInChildren<Image>();
 
         sp.color = color;
     }
