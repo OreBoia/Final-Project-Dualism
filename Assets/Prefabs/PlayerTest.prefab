@@ -325,7 +325,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5694674712765311348}
   - component: {fileID: 5289051032091793101}
-  - component: {fileID: 3456019637344428635}
   - component: {fileID: 3456019637344428637}
   - component: {fileID: 3456019637344428638}
   - component: {fileID: 3456019637344428632}
@@ -376,24 +375,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!143 &3456019637344428635
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8229834827512304756}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Height: 2.15
-  m_Radius: 1.075
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &3456019637344428637
 MeshFilter:
   m_ObjectHideFlags: 0

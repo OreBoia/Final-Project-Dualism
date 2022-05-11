@@ -12,7 +12,8 @@ public class DialogScriptableObject : ScriptableObject
         public string sentence;
         public int id;
         public Emotion emotion;
-        public Color color;
+        public Color colorFrame;
+        public Color colorText;
     }
 
     public List<DialogString> strings = new List<DialogString>();

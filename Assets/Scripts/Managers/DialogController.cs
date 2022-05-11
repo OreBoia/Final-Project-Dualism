@@ -109,7 +109,7 @@ public class DialogController : MonoBehaviour
             {
                 SetCanvasToActivate();
 
-                SetTextMeshObj();
+                SetTextMeshObj(dialogAsset.strings[index].colorText);
 
                 StartCoroutine(coroutine);
             }
@@ -131,7 +131,7 @@ public class DialogController : MonoBehaviour
             {
                 SetCanvasToActivate();
 
-                SetTextMeshObj();
+                SetTextMeshObj(dialogAsset.strings[index].colorText);
             }
 
             if (dialogStatus == DialagoStatus.Typing)
@@ -175,7 +175,7 @@ public class DialogController : MonoBehaviour
     }
 
     //ATTIVA IL CANCAS DELLO SPEAKER E IMPOSTA IL COLORE DEL FRAME
-    private void ActivateCanvas(GameObject gameObject, Color color) 
+    private void ActivateCanvas(GameObject gameObject, Color colorFrame) 
     {
         DialogBox canvas = gameObject.GetComponentInChildren<DialogBox>();
 
@@ -185,7 +185,7 @@ public class DialogController : MonoBehaviour
 
         Image sp = canvas.gameObject.GetComponentInChildren<Image>();
 
-        sp.color = color;
+        sp.color = colorFrame;
     }
 
     //DISATTIVA IL CANVAS DELLO SPEAKER
@@ -197,12 +197,13 @@ public class DialogController : MonoBehaviour
     }
 
     //CERCA IL TextMeshObj DELLO SPEAKER E RESETTA IL TESTO
-    private void SetTextMeshObj()
+    private void SetTextMeshObj(Color colorText)
     {
         dialogTextObj =
             sortedSpeakerList[dialogAsset.strings[index].id].gameObject.GetComponentInChildren<TextMeshProUGUI>();
 
         dialogTextObj.text = "";
+        dialogTextObj.color = colorText;
     }
 
     //SCEGLIE IL CANVAS DA DISATTIVARE E QUELLO DA ATTIVARE 
@@ -214,7 +215,7 @@ public class DialogController : MonoBehaviour
             previusId = dialogAsset.strings[index].id;
         }
 
-        ActivateCanvas(sortedSpeakerList[dialogAsset.strings[index].id], dialogAsset.strings[index].color);
+        ActivateCanvas(sortedSpeakerList[dialogAsset.strings[index].id], dialogAsset.strings[index].colorFrame);
     }
 
     //CONTROLLA SE IL DIALOGO E' FINITO, ALTRIMENTI AUMENTA INDEX

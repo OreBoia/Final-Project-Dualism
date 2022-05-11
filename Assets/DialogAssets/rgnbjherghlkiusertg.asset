@@ -12,4 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 667187a862514684584d461d9137c147, type: 3}
   m_Name: rgnbjherghlkiusertg
   m_EditorClassIdentifier: 
-  strings: []
+  strings:
+  - sentence: 
+    id: 0
+    emotion: 0
+    color: {r: 0, g: 0, b: 0, a: 1}

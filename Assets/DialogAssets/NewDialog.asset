@@ -16,16 +16,20 @@ MonoBehaviour:
   - sentence: Player1
     id: 0
     emotion: 0
-    color: {r: 0.6226415, g: 0.56037736, b: 0.56037736, a: 1}
+    colorFrame: {r: 1, g: 0, b: 0, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: NPC1
     id: 1
     emotion: 0
-    color: {r: 0.41509432, g: 0.35792094, b: 0.35792094, a: 1}
+    colorFrame: {r: 1, g: 1, b: 1, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: NPC2
     id: 1
     emotion: 0
-    color: {r: 0.9245283, g: 0.09070841, b: 0.09070841, a: 1}
+    colorFrame: {r: 0.079197526, g: 1, b: 0, a: 1}
+    colorText: {r: 1, g: 0.036189016, b: 0, a: 1}
   - sentence: Player2
     id: 0
     emotion: 0
-    color: {r: 0.9622642, g: 0.1942684, b: 0.8380337, a: 1}
+    colorFrame: {r: 1, g: 1, b: 1, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}

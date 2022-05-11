@@ -226,8 +226,8 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.15\Editor\PlasticSCM\Configuration\ChannelCertificateUiImpl.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.15\Editor\PlasticSCM\NewIncomingChanges.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.15\Editor\PlasticSCM\Views\Diff\Dialogs\GetRestorePathDialog.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.15\Editor\PlasticSCM\MetaPath.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.15\Editor\PlasticSCM\Views\IncomingChanges\Developer\IncomingChangesTab.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.15\Editor\PlasticSCM\MetaPath.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.15\Editor\PlasticSCM\EnumExtensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.15\Editor\PlasticSCM\UI\DockEditorWindow.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.15\Editor\PlasticSCM\SwitchModeConfirmationDialog.cs" />
@@ -975,14 +975,16 @@
     <Reference Include="System.Xml.XPath.XDocument">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{5C9EFF1B-7B82-EFC7-2109-F1A4283355FF}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{7AE2E0D5-2E68-A747-8F9E-DF1928843385}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
       <Project>{24D1CE28-1929-1194-F062-147AF4079653}</Project>
       <Name>UnityEngine.TestRunner</Name>
