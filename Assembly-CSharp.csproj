@@ -57,7 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Input\PlayerControls.cs" />
-    <Compile Include="Assets\Scripts\SpineCharacter.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\SpineCharacter.cs" />
     <Compile Include="Assets\Scripts\Dialog Scripts\PlayerEventCheck.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\StartMenu.cs" />
     <Compile Include="Assets\Scripts\Dialog Scripts\DialogScriptableObject.cs" />
@@ -70,6 +70,7 @@
     <Compile Include="Assets\PlayerScript.cs" />
     <Compile Include="Assets\Scripts\Dialog Scripts\DialogScript.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\OptionMenu.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\PlayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
