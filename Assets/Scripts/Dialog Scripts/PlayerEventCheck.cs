@@ -7,6 +7,7 @@ public class PlayerEventCheck : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         EventScript eventObj = collision.gameObject.GetComponent<EventScript>();
+        //Debug.Log(eventObj);
 
         if (eventObj != null)
         {
@@ -22,7 +23,7 @@ public class PlayerEventCheck : MonoBehaviour
     {
         EventScript eventObj = collision.gameObject.GetComponent<EventScript>();
 
-        Debug.Log("COLLISION " + collision);
+        //Debug.Log("COLLISION " + collision);
 
         if (eventObj != null)
         {

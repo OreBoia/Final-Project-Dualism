@@ -58,26 +58,36 @@
   <ItemGroup>
     <Compile Include="Assets\Input\PlayerControls.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\SpineCharacter.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Dialog Scripts\PlayerEventCheck.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\StartMenu.cs" />
     <Compile Include="Assets\Scripts\Dialog Scripts\DialogScriptableObject.cs" />
-    <Compile Include="Assets\DialogBox.cs" />
-    <Compile Include="Assets\Scripts\NPCScripts.cs" />
-    <Compile Include="Assets\SetPointScript.cs" />
+    <Compile Include="Assets\Scripts\Dialog Scripts\DialogBox.cs" />
+    <Compile Include="Assets\Scripts\Minigame Candles Scripts\CandleScript.cs" />
+    <Compile Include="Assets\Scripts\Dialog Scripts\NPCScripts.cs" />
+    <Compile Include="Assets\Scripts\Minigame Plant Scripts\LeafScripts.cs" />
+    <Compile Include="Assets\Scripts\Dialog Scripts\SetPointScript.cs" />
     <Compile Include="Assets\Scripts\Managers\GameController.cs" />
     <Compile Include="Assets\Scripts\Dialog Scripts\Events\EventScript.cs" />
+    <Compile Include="Assets\Scripts\Minigame Clouds Scripts\ChooseControllerScript.cs" />
+    <Compile Include="Assets\Scripts\Minigame Candles Scripts\MinigameCandlesController.cs" />
     <Compile Include="Assets\Scripts\Managers\DialogController.cs" />
-    <Compile Include="Assets\PlayerScript.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\PlayerScript.cs" />
     <Compile Include="Assets\Scripts\Dialog Scripts\DialogScript.cs" />
+    <Compile Include="Assets\Scripts\Minigame Candles Scripts\PlacePointScript.cs" />
+    <Compile Include="Assets\Scripts\Minigame Candles Scripts\RightSequenceScript.cs" />
+    <Compile Include="Assets\Scripts\Minigame Plant Scripts\HandScripts.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\OptionMenu.cs" />
-    <Compile Include="Assets\Scripts\Player Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\IMovement.cs" />
+    <Compile Include="Assets\Scripts\Minigame Plant Scripts\MinigameLeafController.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\PlayerMovementTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\Spine\version.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\Animation&amp;Models\MainPg.atlas.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Animation&amp;Models\Jason\MainPg.atlas.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
@@ -681,10 +691,6 @@
       <Project>{6A50A53D-CE14-0787-69EF-0ABBF8F84D27}</Project>
       <Name>Unity.InternalAPIEngineBridge.001</Name>
     </ProjectReference>
-    <ProjectReference Include="spine-unity-examples-editor.csproj">
-      <Project>{DE06BD88-40E2-EA58-B68F-498C94C11EFA}</Project>
-      <Name>spine-unity-examples-editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{B48A6DC0-2DA3-EFE1-217A-7BB60176A15A}</Project>
       <Name>Unity.VSCode.Editor</Name>
@@ -720,10 +726,6 @@
     <ProjectReference Include="spine-unity.csproj">
       <Project>{FCD26329-ABB1-D103-C03E-BC9ED121065D}</Project>
       <Name>spine-unity</Name>
-    </ProjectReference>
-    <ProjectReference Include="spine-unity-examples.csproj">
-      <Project>{3E48592B-B348-BFA2-164B-1812463D4B33}</Project>
-      <Name>spine-unity-examples</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
       <Project>{57DEE7DF-2C23-E4B9-629F-C43CD309B711}</Project>
@@ -796,6 +798,14 @@
     <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
       <Project>{75D2380E-EA18-EAEB-9C63-B58B354FC899}</Project>
       <Name>Unity.ShaderGraph.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{5F361FA7-3F3C-7E55-BDBC-848CE20A00A0}</Project>
+      <Name>Cinemachine</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{9FCFE4A2-A11E-1A01-71C7-BC2C49DE17C5}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj">
       <Project>{B33331D3-4CBC-BC23-1D7D-A9F4D895FE63}</Project>

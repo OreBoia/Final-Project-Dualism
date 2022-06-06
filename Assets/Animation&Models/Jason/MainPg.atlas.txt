@@ -1,0 +1,152 @@
+MainPg.png
+size:2939,2175
+filter:Linear,Linear
+pma:true
+avambraccio dx
+bounds:2135,1853,202,492
+rotate:90
+avambraccio sx
+bounds:2,1766,206,470
+offsets:0,0,1030,481
+rotate:90
+bacino
+bounds:2,1145,434,392
+bianco occhi
+bounds:2648,2025,222,148
+bocca
+bounds:415,2130,113,43
+bocca A
+bounds:1131,2106,105,67
+offsets:2,0,107,67
+bocca bere
+bounds:169,2131,77,42
+bocca denti
+bounds:1238,2106,139,67
+offsets:0,9,139,76
+bocca denti chiusa
+bounds:1717,2092,130,81
+offsets:51,7,181,245
+bocca o
+bounds:1054,2123,75,50
+braccio dx
+bounds:1489,1370,261,490
+rotate:90
+braccio sx
+bounds:2,1539,225,454
+offsets:0,39,225,493
+rotate:90
+cappuccio
+bounds:1981,1357,413,268
+ciuffo
+bounds:2396,1286,314,283
+collo
+bounds:2629,1809,214,308
+rotate:90
+comò
+bounds:693,153,813,730
+offsets:0,2,813,732
+coniglietto 1
+bounds:2363,2057,116,283
+offsets:0,0,126,283
+rotate:90
+coniglietto 2
+bounds:2078,2061,112,283
+offsets:14,0,126,283
+rotate:90
+coscia dx
+bounds:922,1427,257,565
+rotate:90
+coscia sx
+bounds:1192,1686,220,533
+rotate:90
+cuscino
+bounds:1508,2,808,818
+offsets:2,0,810,818
+rotate:90
+lacci felpa
+bounds:1379,2094,79,336
+rotate:90
+mano caffe
+bounds:1837,1864,296,195
+offsets:0,0,410,195
+mano caffe bar
+bounds:2557,1571,236,312
+offsets:0,0,253,380
+rotate:90
+mano cellulare
+bounds:709,1743,219,227
+offsets:0,71,219,298
+rotate:90
+mano dx
+bounds:680,1964,158,323
+offsets:0,0,158,329
+rotate:90
+mano dx pugno
+bounds:2,1977,152,265
+offsets:0,57,155,322
+rotate:90
+mano dx tasche
+bounds:474,1747,233,215
+mano indica
+bounds:1308,1910,182,300
+rotate:90
+mano sx
+bounds:1005,1930,174,301
+offsets:8,0,182,301
+rotate:90
+mano sx pugno
+bounds:1610,1908,182,225
+offsets:0,53,182,278
+rotate:90
+palpebra
+bounds:1849,2069,227,104
+offsets:0,0,229,104
+petto 1
+bounds:1919,812,472,695
+rotate:90
+petto 2
+bounds:2,495,483,689
+offsets:0,6,501,695
+rotate:90
+polpaccio dx
+bounds:458,1496,245,462
+rotate:90
+polpaccio sx
+bounds:1989,1627,224,566
+rotate:90
+punta piede dx
+bounds:269,1974,206,154
+punta piede sx
+bounds:477,1966,201,156
+pupille 1
+bounds:2,2133,165,40
+pupille 2
+bounds:248,2131,165,42
+sopracciglia 1
+bounds:530,2124,260,49
+offsets:0,0,262,49
+sopracciglia 2
+bounds:792,2124,260,49
+offsets:0,0,262,49
+tallone dx
+bounds:1727,1633,260,229
+tallone sx
+bounds:938,1702,252,226
+testa 1
+bounds:438,980,454,514
+testa 2
+bounds:894,971,454,514
+rotate:90
+vita
+bounds:1410,885,483,507
+rotate:90
+
+MainPg_2.png
+size:2921,2655
+filter:Linear,Linear
+pma:true
+coperta
+bounds:2,2,2323,1049
+letto
+bounds:2,1053,2917,1600
+offsets:0,2,2917,1602

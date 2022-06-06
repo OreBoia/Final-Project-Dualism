@@ -22525,3 +22525,6 @@ Library/ShaderCache/f/fcd2e8237509442a8ae904a637014cf7.bin
 Library/ShaderCache/f/fe164d0a926a1e3927bcbf3381035ec9.bin
 Library/ShaderCache/f/fe2815ac7ebfe59a66cf27b353f662a5.bin
 Library/ShaderCache/f/ff3138a8ea695ca181fed7a55311dac5.bin
+Temp/
+obj/
+Logs/

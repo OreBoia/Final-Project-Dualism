@@ -345,8 +345,8 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Data\Legacy\IMasterNode1.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Generation\Targets\VFXTarget.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Data\Graphs\Vector3ShaderProperty.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Data\Nodes\Math\Advanced\AbsoluteNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Data\Nodes\Artistic\Adjustment\ReplaceColorNode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Data\Nodes\Math\Advanced\AbsoluteNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Generation\Data\ConditionalField.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Data\Nodes\Math\Basic\DivideNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Data\Nodes\Math\Vector\SphereMaskNode.cs" />
@@ -433,8 +433,8 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Data\Nodes\UV\RadialShearNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Drawing\Controls\GradientControl.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Data\Graphs\GraphDataUtils.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Data\Nodes\Math\Vector\DistanceNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Drawing\Inspector\PropertyDrawers\Vector2PropertyDrawer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Data\Nodes\Math\Vector\DistanceNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Generation\Contexts\TargetFieldContext.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Data\Nodes\Math\Derivative\DDXYNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Drawing\Views\PropertySheet.cs" />
@@ -486,8 +486,8 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Drawing\Views\Slots\LabelSlotControlView.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Data\Attributes\SRPFilterAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Data\Graphs\GradientShaderProperty.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Drawing\Views\IShaderNodeView.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Data\Util\PooledList.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Drawing\Views\IShaderNodeView.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Data\Nodes\Channel\FlipNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Data\Nodes\Artistic\Adjustment\SaturationNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Drawing\Inspector\PropertyDrawers\CustomFunctionNodePropertyDrawer.cs" />
@@ -536,8 +536,8 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Drawing\Colors\NoColors.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Drawing\Colors\ColorManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Data\Attributes\BuiltinKeywordAttribute.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Data\Nodes\Utility\Logic\NotNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Generation\Collections\StructCollection.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Data\Nodes\Utility\Logic\NotNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Data\Graphs\Texture3DInputMaterialSlot.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Data\SubGraph\SubGraphOutputNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Data\Interfaces\IMayRequireVertexID.cs" />
@@ -619,8 +619,8 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Data\Nodes\Math\Wave\NoiseSineWaveNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Drawing\Controls\ChannelEnumMaskControl.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Interface\IConditional.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Drawing\Inspector\PropertyDrawers\Texture2DArrayPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Data\Nodes\Input\Gradient\GradientNode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Drawing\Inspector\PropertyDrawers\Texture2DArrayPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Util\CompatibilityExtensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Data\Util\IndexSetPool.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Data\Nodes\Math\Advanced\LogNode.cs" />

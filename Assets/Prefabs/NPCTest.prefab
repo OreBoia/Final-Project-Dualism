@@ -291,8 +291,6 @@ GameObject:
   m_Component:
   - component: {fileID: 9120357176171848585}
   - component: {fileID: 2453817333991905422}
-  - component: {fileID: 2189795543266273454}
-  - component: {fileID: 2189795543266273455}
   - component: {fileID: 6665240766122857854}
   m_Layer: 0
   m_Name: NPCTest
@@ -367,48 +365,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2189795543266273454
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4873941331726868105}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 76492d6e4324e0b4fa8d852003e6dc92, type: 3}
-  m_NotificationBehavior: 0
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents: []
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: Keyboard&Mouse
-  m_DefaultActionMap: DialogControl
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
---- !u!114 &2189795543266273455
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4873941331726868105}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 764e206616b899b4185b92245ac96b5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &6665240766122857854
 MonoBehaviour:
   m_ObjectHideFlags: 0

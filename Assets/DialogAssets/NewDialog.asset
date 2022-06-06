@@ -13,23 +13,18 @@ MonoBehaviour:
   m_Name: NewDialog
   m_EditorClassIdentifier: 
   strings:
-  - sentence: Player1
+  - sentence: 
     id: 0
     emotion: 0
-    colorFrame: {r: 1, g: 0, b: 0, a: 1}
-    colorText: {r: 0, g: 0, b: 0, a: 1}
-  - sentence: NPC1
+    colorFrame: {r: 0, g: 0, b: 0, a: 0}
+    colorText: {r: 0, g: 0, b: 0, a: 0}
+  - sentence: 
     id: 1
     emotion: 0
-    colorFrame: {r: 1, g: 1, b: 1, a: 1}
-    colorText: {r: 0, g: 0, b: 0, a: 1}
-  - sentence: NPC2
-    id: 1
+    colorFrame: {r: 0, g: 0, b: 0, a: 0}
+    colorText: {r: 0, g: 0, b: 0, a: 0}
+  - sentence: 
+    id: 200
     emotion: 0
-    colorFrame: {r: 0.079197526, g: 1, b: 0, a: 1}
-    colorText: {r: 1, g: 0.036189016, b: 0, a: 1}
-  - sentence: Player2
-    id: 0
-    emotion: 0
-    colorFrame: {r: 1, g: 1, b: 1, a: 1}
-    colorText: {r: 0, g: 0, b: 0, a: 1}
+    colorFrame: {r: 0, g: 0, b: 0, a: 0}
+    colorText: {r: 0, g: 0, b: 0, a: 0}

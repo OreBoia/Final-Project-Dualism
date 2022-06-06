@@ -7,6 +7,7 @@ using TMPro;
 using System.Linq;
 using System;
 using UnityEngine.UI;
+using UnityEngine.InputSystem;
 
 public enum DialagoStatus { Init, Typing, EndOfSentence, EndOfDialog }
 public enum DialagoType { Dialog, Monologue }
@@ -32,8 +33,6 @@ public class DialogController : MonoBehaviour
     Dictionary<int, GameObject> speakerList =
     new Dictionary<int, GameObject>();
 
-    
-
     Dictionary<int, GameObject> sortedSpeakerList = 
         new Dictionary<int, GameObject>();
 
@@ -56,6 +55,7 @@ public class DialogController : MonoBehaviour
     private void Awake()
     {
         _instance = this;
+        DontDestroyOnLoad(this);
     }
 
     private void Start()
@@ -65,15 +65,14 @@ public class DialogController : MonoBehaviour
 
     private void Update()
     {
-        //if (index == dialogAsset.strings.Count)
-        //{
-        //    dialagoStatus = DialagoStatus.EndOfDialog;
-        //}
+       
+    }
 
-        if (dialogStatus == DialagoStatus.EndOfDialog)
-        {
-            speakerList.Clear();
-        }
+    private void Reset()
+    {
+        index = 0;
+        dialogStatus = DialagoStatus.EndOfSentence;
+        speakerList.Clear();
     }
 
     public IEnumerator Type()
@@ -116,6 +115,9 @@ public class DialogController : MonoBehaviour
             else if (dialogStatus == DialagoStatus.EndOfDialog)
             {
                 DeactivateCanvas(sortedSpeakerList[dialogAsset.strings[index].id]);
+                Debug.Log("SWITCH TO PC");
+                SwitchControlAtEnd();
+                Reset();
             }
         }
     }
@@ -155,8 +157,13 @@ public class DialogController : MonoBehaviour
         NPCScripts[] speakers = GameObject.FindObjectsOfType<NPCScripts>();
 
         //ADD PLAYER BEFORE NPCS
-        speakerList.Add(0, GameObject.FindObjectOfType<PlayerScript>().gameObject);
+        PlayerScript ps = GameObject.FindObjectOfType<PlayerScript>();
 
+        if (ps != null)
+        {
+            speakerList.Add(0, GameObject.FindObjectOfType<PlayerScript>().gameObject);
+        }
+        
         foreach (NPCScripts s in speakers)
         {
             speakerList.Add(s.id, s.gameObject);
@@ -228,13 +235,20 @@ public class DialogController : MonoBehaviour
         else
         {
             dialogStatus = DialagoStatus.EndOfDialog;
+            //Debug.Log("SWITCH TO PC");
+            //SwitchControlAtEnd();
         }
+    }
+
+    private void SwitchControlAtEnd()
+    {
+        sortedSpeakerList[0].gameObject.GetComponent<PlayerInput>().SwitchCurrentActionMap("PlayerControl");
     }
 
     public void SetPosition(GameObject setPoint)
     {
-        Transform playerTransform = GameObject.FindObjectOfType<PlayerScript>().gameObject.transform;
+        Rigidbody2D playerTransform = GameObject.FindObjectOfType<PlayerScript>().gameObject.GetComponent<Rigidbody2D>();
 
-        playerTransform.position = setPoint.transform.position;
+        playerTransform.MovePosition(new Vector2(setPoint.transform.position.x, setPoint.transform.position.y));
     }
 }
