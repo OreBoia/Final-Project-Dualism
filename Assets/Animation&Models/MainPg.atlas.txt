@@ -1,0 +1,111 @@
+MainPg.png
+size:2018,1797
+filter:Linear,Linear
+pma:true
+avambraccio dx
+bounds:487,1087,202,492
+rotate:90
+avambraccio sx
+bounds:981,911,206,470
+offsets:0,0,1030,481
+rotate:90
+bacino
+bounds:2,15,434,392
+bianco occhi
+bounds:1868,854,222,148
+rotate:90
+bocca
+bounds:1868,809,113,43
+braccio dx
+bounds:1516,1078,261,490
+rotate:90
+braccio sx
+bounds:961,437,225,454
+offsets:0,39,225,493
+rotate:90
+cappuccio
+bounds:1453,808,413,268
+ciuffo
+bounds:1417,363,314,283
+collo
+bounds:519,210,214,308
+coniglietto 1
+bounds:1169,17,116,283
+offsets:0,0,126,283
+rotate:90
+coniglietto 2
+bounds:1632,78,112,283
+offsets:14,0,126,283
+coscia dx
+bounds:476,520,257,565
+coscia sx
+bounds:981,1119,220,533
+rotate:90
+lacci felpa
+bounds:438,71,79,336
+mano caffe
+bounds:735,207,310,195
+offsets:0,0,410,195
+rotate:90
+mano dx
+bounds:1425,648,158,323
+offsets:0,0,158,329
+rotate:90
+mano dx pugno
+bounds:902,52,152,265
+offsets:0,57,155,322
+rotate:90
+mano indica
+bounds:1194,135,182,300
+mano sx
+bounds:1746,83,174,301
+offsets:8,0,182,301
+mano sx pugno
+bounds:675,23,182,225
+offsets:0,53,182,278
+rotate:90
+palpebra
+bounds:1784,421,227,104
+offsets:0,0,229,104
+rotate:90
+petto 1
+bounds:2,409,472,695
+petto 2
+bounds:2,1106,483,689
+offsets:0,6,501,695
+polpaccio dx
+bounds:961,664,245,462
+rotate:90
+polpaccio sx
+bounds:735,519,224,566
+punta piede dx
+bounds:519,2,206,154
+rotate:90
+punta piede sx
+bounds:1750,650,201,156
+pupille 1
+bounds:1454,93,165,40
+pupille 2
+bounds:1454,51,161,40
+offsets:2,1,165,42
+sopracciglia 1
+bounds:1733,386,260,49
+offsets:0,0,262,49
+rotate:90
+sopracciglia 2
+bounds:1890,388,260,49
+offsets:0,0,262,49
+rotate:90
+tallone dx
+bounds:932,206,260,229
+tallone sx
+bounds:1378,135,252,226
+testa 1
+bounds:969,1341,454,514
+rotate:90
+testa 2
+bounds:1485,1341,454,514
+rotate:90
+vita
+bounds:487,1291,480,504
+offsets:2,1,483,507
