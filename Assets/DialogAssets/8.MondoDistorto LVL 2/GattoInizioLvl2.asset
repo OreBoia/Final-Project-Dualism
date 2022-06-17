@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 667187a862514684584d461d9137c147, type: 3}
+  m_Name: GattoInizioLvl2
+  m_EditorClassIdentifier: 
+  strings:
+  - sentence: Hey friend! Hey, hey!
+    id: 3
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: "I\u2019m so happy you came to visit again!"
+    id: 3
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: Hello strange talking cat.
+    id: 1
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: "Are you ready to explore? Today I\u2019m so full of energy!"
+    id: 3
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: "I\u2019m so happy to have a little bit of company,"
+    id: 3
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: "even if it\u2019s you."
+    id: 3
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: "\u2026 Thank you?"
+    id: 1
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: 'Oh, come on! '
+    id: 3
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: "Don\u2019t be prickly!"
+    id: 3
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: "I\u2019m just joking."
+    id: 3
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: "You are weird today\u2026"
+    id: 1
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: Hahahaha
+    id: 3
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: So, what are we doing today?
+    id: 3
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: Oh, we are in a forest!
+    id: 3
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: "Do you think it\u2019s about the accident that happened here?"
+    id: 3
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: Like, you know, last time was that girlfriend of yours and now-
+    id: 3
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: Just shut up!
+    id: 1
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}

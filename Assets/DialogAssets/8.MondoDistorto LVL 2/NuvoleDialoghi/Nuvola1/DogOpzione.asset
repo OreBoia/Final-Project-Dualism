@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 667187a862514684584d461d9137c147, type: 3}
+  m_Name: DogOpzione
+  m_EditorClassIdentifier: 
+  strings:
+  - sentence: A dog.
+    id: 1
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: Mmmh, a dog.
+    id: 4
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: Yes, that cloud is really similar to Archie.
+    id: 1
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: Oh, you mean that small dog?
+    id: 9
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: The one who stayed near the Caffeine Hub?
+    id: 9
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: Yeah, him!
+    id: 1
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: I remember him!
+    id: 4
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: I loved Archie.
+    id: 4
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: "I\u2019ve always been a dog person."
+    id: 4
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}

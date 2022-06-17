@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 667187a862514684584d461d9137c147, type: 3}
+  m_Name: CatOpzione
+  m_EditorClassIdentifier: 
+  strings:
+  - sentence: A cat.
+    id: 1
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: Ah yes!
+    id: 4
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: "It really reminds me of that old lady\u2019s cat\u2026"
+    id: 4
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: 'You mean Princess, '
+    id: 1
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: "that was Iris\u2019 cat."
+    id: 1
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: 'Yes, Iris! '
+    id: 4
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: She used to give us sweets when we were kids.
+    id: 4
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: Ah right!
+    id: 9
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: I forgot about it.
+    id: 9
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: And her cat used to wander around the city.
+    id: 1
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: "Oh yeah\u2026"
+    id: 9
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: She loved cuddles.
+    id: 9
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}

@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 667187a862514684584d461d9137c147, type: 3}
+  m_Name: MinigiocoFumoLvl1
+  m_EditorClassIdentifier: 
+  strings:
+  - sentence: 'Bonnie used to smoke a lot when drunk or stressed. '
+    id: 1
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: "That night she came to me because she wanted a cigarette\u2026"
+    id: 1
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: She was so drunk!
+    id: 1
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: We can say that that was the moment we started dating.
+    id: 1
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: "It was so long ago\u2026"
+    id: 1
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: INIZIO MINIGIOCO
+    id: 1
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: "You can\u2019t do it. "
+    id: 3
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: You are not good enough.
+    id: 3
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: "Why don\u2019t you stop trying?"
+    id: 3
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: FINE MINIGIOCO
+    id: 1
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: "This smell of cigarettes also reminds me of the last period\u2026 "
+    id: 1
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: She was always nervous and distant.
+    id: 1
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
+  - sentence: "I barely could see her behind all that fog\u2026"
+    id: 0
+    emotion: 0
+    colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
+    colorText: {r: 0, g: 0, b: 0, a: 1}
