@@ -27,7 +27,7 @@ public class PlayerEventCheck : MonoBehaviour
 
         if (eventObj != null)
         {
-            DialogController.Instance.dialogAsset = null;
+            DialogController.Instance.Reset();
             //aggiungere controllo quando non c'è il dialog asset
         }
     }

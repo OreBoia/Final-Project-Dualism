@@ -361,8 +361,8 @@ GameObject:
   - component: {fileID: 3456019637344428632}
   - component: {fileID: 3456019637344428633}
   - component: {fileID: 3456019637344428634}
-  - component: {fileID: 5141643501143035875}
   - component: {fileID: 3456019637344428636}
+  - component: {fileID: 5801612704820963930}
   m_Layer: 0
   m_Name: PlayerTest
   m_TagString: Untagged
@@ -495,7 +495,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 764e206616b899b4185b92245ac96b5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputActions: 
+  actionMapNameSwitch: 
+  inputActions:
+    m_Name: 
+    m_Id: 26b02f76-08ff-41f2-ad56-fb5188272551
+    m_Asset: {fileID: 0}
+    m_Actions: []
+    m_Bindings: []
   scheme: 
   autoswitch: 0
 --- !u!114 &3456019637344428633
@@ -540,26 +546,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd0cff04b2634c74ebd40a7e2732eea5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &5141643501143035875
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8229834827512304756}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c11ddec193484e459d02ca7f6ab927e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  jumpHeight: 15
-  isGrounded: 0
-  groundCheck: {fileID: 7266400000398604141}
-  radiusGroundCheck: 0.2
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 64
 --- !u!114 &3456019637344428636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -598,6 +584,20 @@ MonoBehaviour:
   _animationName: animation
   loop: 1
   timeScale: 1
+--- !u!114 &5801612704820963930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8229834827512304756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1698f4b084856164ea8c08090747eb2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.12
+  scheme: 
 --- !u!1 &8650446193870986434
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,24 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System.IO;
-using UnityEditor;
 using TMPro;
 using System.Linq;
-using System;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
+using System;
 
 public enum DialagoStatus { Init, Typing, EndOfSentence, EndOfDialog }
-public enum DialagoType { Dialog, Monologue }
 
 public class DialogController : MonoBehaviour
 {
-    
     private int selectedDialogIndex;
     private string[] dialogsAssetsFound;
 
     public TextMeshProUGUI dialogTextObj;
+
     private char[] charText;
     public int index = 0;
     public float typingSpeed;
@@ -40,7 +37,7 @@ public class DialogController : MonoBehaviour
     IEnumerator coroutine;
 
     //DIALOG STATUS
-    public DialagoStatus dialogStatus = DialagoStatus.EndOfSentence;
+    public DialagoStatus dialogStatus;
 
     //INSTANCE
     private static DialogController _instance;
@@ -52,9 +49,11 @@ public class DialogController : MonoBehaviour
             return _instance;
         }
     }
+
     private void Awake()
     {
         _instance = this;
+        dialogStatus = DialagoStatus.Init;
         DontDestroyOnLoad(this);
     }
 
@@ -63,16 +62,14 @@ public class DialogController : MonoBehaviour
         coroutine = Type();
     }
 
-    private void Update()
-    {
-       
-    }
-
-    private void Reset()
+    public void Reset()
     {
         index = 0;
-        dialogStatus = DialagoStatus.EndOfSentence;
+        dialogStatus = DialagoStatus.Init;
         speakerList.Clear();
+        sortedSpeakerList.Clear();
+        dialogAsset = null;
+        setPointObj = null;
     }
 
     public IEnumerator Type()
@@ -86,8 +83,6 @@ public class DialogController : MonoBehaviour
             dialogTextObj.text += charText[i];
             yield return new WaitForSeconds(typingSpeed);
         }
-
-        dialogStatus = DialagoStatus.EndOfSentence;
 
         EndOfDialogCheck();
     }
@@ -104,19 +99,26 @@ public class DialogController : MonoBehaviour
                 SetPosition(setPointObj);
             }
 
-            if (index < dialogAsset.strings.Count && dialogStatus != DialagoStatus.EndOfDialog && dialogStatus == DialagoStatus.EndOfSentence)
+            if (index < dialogAsset.strings.Count 
+                && dialogStatus != DialagoStatus.EndOfDialog 
+                && (dialogStatus == DialagoStatus.EndOfSentence || dialogStatus == DialagoStatus.Init))
             {
                 SetCanvasToActivate();
 
                 SetTextMeshObj(dialogAsset.strings[index].colorText);
+
+                //set animation
+                PlayerScript.Instance.GetComponent<PlayerMovementTest>().ChangeAnimation(dialogAsset.strings[index].emotion.ToString());
 
                 StartCoroutine(coroutine);
             }
             else if (dialogStatus == DialagoStatus.EndOfDialog)
             {
                 DeactivateCanvas(sortedSpeakerList[dialogAsset.strings[index].id]);
+
                 Debug.Log("SWITCH TO PC");
                 SwitchControlAtEnd();
+
                 Reset();
             }
         }
@@ -188,8 +190,6 @@ public class DialogController : MonoBehaviour
 
         canvas.canvas.SetActive(true);
 
-        //Debug.Log(color);
-
         Image sp = canvas.gameObject.GetComponentInChildren<Image>();
 
         sp.color = colorFrame;
@@ -231,18 +231,23 @@ public class DialogController : MonoBehaviour
         if (index < dialogAsset.strings.Count - 1)
         {
             index++;
+            dialogStatus = DialagoStatus.EndOfSentence;
         }
         else
         {
             dialogStatus = DialagoStatus.EndOfDialog;
-            //Debug.Log("SWITCH TO PC");
-            //SwitchControlAtEnd();
         }
     }
 
     private void SwitchControlAtEnd()
     {
-        sortedSpeakerList[0].gameObject.GetComponent<PlayerInput>().SwitchCurrentActionMap("PlayerControl");
+        sortedSpeakerList[0].gameObject.GetComponent<PlayerInput>().
+            SwitchCurrentActionMap(sortedSpeakerList[0].gameObject.GetComponent<DialogScript>().actionMapNameSwitch);
+
+        if (sortedSpeakerList[0].gameObject.GetComponent<ChooseControllerScript>() != null)
+        {
+            sortedSpeakerList[0].gameObject.GetComponent<ChooseControllerScript>().EndOfDialogChanges();
+        }
     }
 
     public void SetPosition(GameObject setPoint)
@@ -250,5 +255,18 @@ public class DialogController : MonoBehaviour
         Rigidbody2D playerTransform = GameObject.FindObjectOfType<PlayerScript>().gameObject.GetComponent<Rigidbody2D>();
 
         playerTransform.MovePosition(new Vector2(setPoint.transform.position.x, setPoint.transform.position.y));
+    }
+
+    public void PrintSpeakers()
+    {
+        foreach (KeyValuePair<int, GameObject> entry in speakerList)
+        {
+            Debug.Log("normal list - " + entry);
+        }
+
+        foreach (KeyValuePair<int, GameObject> entry in sortedSpeakerList)
+        {
+            Debug.Log("ordered list" + entry);
+        }
     }
 }

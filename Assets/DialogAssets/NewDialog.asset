@@ -13,18 +13,21 @@ MonoBehaviour:
   m_Name: NewDialog
   m_EditorClassIdentifier: 
   strings:
-  - sentence: 
+  - sentence: ' Test1 - Player  Test1 - Player  Test1 - Player  Test1 - Player  Test1
+      - Player  Test1 - Player '
     id: 0
     emotion: 0
-    colorFrame: {r: 0, g: 0, b: 0, a: 0}
-    colorText: {r: 0, g: 0, b: 0, a: 0}
-  - sentence: 
+    colorFrame: {r: 1, g: 1, b: 1, a: 1}
+    colorText: {r: 1, g: 0, b: 0, a: 1}
+  - sentence: 'Test2 - NPC Test2 - NPC Test2 - NPC Test2 - NPC Test2 - NPC Test2
+      - NPC Test2 - NPC Test2 - NPC '
     id: 1
     emotion: 0
-    colorFrame: {r: 0, g: 0, b: 0, a: 0}
-    colorText: {r: 0, g: 0, b: 0, a: 0}
-  - sentence: 
-    id: 200
+    colorFrame: {r: 1, g: 1, b: 1, a: 1}
+    colorText: {r: 1, g: 0, b: 0.8378444, a: 1}
+  - sentence: 'Test3 - Player Test3 - Player Test3 - Player Test3 - Player Test3
+      - Player Test3 - Player Test3 - Player Test3 - Player '
+    id: 0
     emotion: 0
-    colorFrame: {r: 0, g: 0, b: 0, a: 0}
-    colorText: {r: 0, g: 0, b: 0, a: 0}
+    colorFrame: {r: 1, g: 1, b: 1, a: 1}
+    colorText: {r: 1, g: 0, b: 0, a: 1}

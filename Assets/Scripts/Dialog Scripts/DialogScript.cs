@@ -10,8 +10,10 @@ public class DialogScript : MonoBehaviour
 {
     PlayerInput playerInput;
 
+    public string actionMapNameSwitch;
+
     [SerializeField]
-    string inputActions;
+    InputActionMap inputActions;
     [SerializeField]
     string scheme;
     [SerializeField]
@@ -24,16 +26,17 @@ public class DialogScript : MonoBehaviour
 
     private void Update()
     {
-
+        scheme = playerInput.currentControlScheme;
     }
 
-    private void OnEventInteraction()
+    public void OnEventInteraction()
     {
         Debug.Log("SWITCH TO DC");
 
         if(DialogController.Instance.dialogAsset != null)
         {
-            playerInput.SwitchCurrentActionMap("DialogControl");
+            ChangeActionMap("DialogControl");
+
             OnNextSentence();
         } 
     }
@@ -46,6 +49,11 @@ public class DialogScript : MonoBehaviour
     private void OnSkipSentence()
     {
         DialogController.Instance.SkipSentence();
+    }
+
+    public void ChangeActionMap(string mapName)
+    {
+        playerInput.SwitchCurrentActionMap(mapName);
     }
 }
 
