@@ -44,6 +44,15 @@ TagManager:
   - name: Background
     uniqueID: 916063521
     locked: 0
+  - name: Minigiochi
+    uniqueID: 1487620771
+    locked: 0
   - name: Player
     uniqueID: 1595742053
+    locked: 0
+  - name: Foreground
+    uniqueID: 1866941363
+    locked: 0
+  - name: Canvas
+    uniqueID: 4068380585
     locked: 0
